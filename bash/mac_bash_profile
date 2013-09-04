@@ -1,0 +1,28 @@
+export CLICOLOR=1
+export LSCOLORS=ExFxCxDxBxegedabagacad
+
+#Aliases
+alias bex="bundle exec"
+alias ssh="ssh -X"
+alias md="mkdir -p"
+alias rd="rmdir"
+alias df="df -h"
+alias mv="mv -i"
+alias slink="ln -s"
+alias sed='sed -E'
+alias l='ls -1'
+alias la='ls -lhAF'
+alias ll='ls -lhF'
+alias lt="ls -lhtrF"
+alias l.="ls -lhtrdF .*"
+alias dir="lt"
+alias dot="l."
+alias cd..="cd .."
+alias cd...="cd ../.."
+alias cd....="cd ../../.."
+alias ..="cd .."
+alias ...="cd ../.."
+alias ....="cd ../../.."
+alias mmongo="sudo mongod --config /usr/local/etc/mongod.conf"
+
+eval "$(rbenv init -)"

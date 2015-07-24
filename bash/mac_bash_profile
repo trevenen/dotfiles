@@ -23,6 +23,3 @@ alias cd....="cd ../../.."
 alias ..="cd .."
 alias ...="cd ../.."
 alias ....="cd ../../.."
-alias mmongo="sudo mongod --config /usr/local/etc/mongod.conf"
-
-eval "$(rbenv init -)"
